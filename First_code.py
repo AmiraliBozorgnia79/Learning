@@ -39,5 +39,7 @@ name="Amirali Bozorgnia"
 First_name=name[0:7]
 last_name=name[8:]
 print(First_name+" "+last_name)
+
+
 print(name[0:7:2])
 
