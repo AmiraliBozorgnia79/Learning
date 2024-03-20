@@ -43,7 +43,7 @@
 #Write a program that calculates the sum of the first N natural numbers, where N is a positive integer provided by the user.
 #k=int(input("please enter your number: "))
 
-base=0
+#base=0
 
 #if k<0:
  #   print("sorry, I cannot process negative number")
@@ -55,7 +55,24 @@ base=0
     #    k=k-1
 #print("the sum of your first N natural numbers is :", base)
 #-------------------------------------------------------------
-#My_Practice
+ #Write a Python program that requests five integer values from the user. It then prints the maximum
+#and minimum values entered. If the user enters the values 3, 2, 5, 0, and 1, the program would
+#indicate that 5 is the maximum and 0 is the minimum. Your program should handle ties properly;
+#for example, if the user enters 2, 4 2, 3 and 3, the program should report 2 as the minimum and 4 as
+#maximum
+
+a=int(input("please enter your first number"))
+b=int(input("please enter your second number"))
+c=int(input("please enter your third number"))
+d=int(input("please enter your fourth number"))
+e=int(input("please enter your fifth number"))
+
+print( "maximum is:", max(a,b,c,d,e), "and minimum is:", min(a,b,c,d,e))
+
+#-------------------------------------------------------------------------------
+
+
+
 
 name="Amirali Bozorgnia"
 #print(len(name))
