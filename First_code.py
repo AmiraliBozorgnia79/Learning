@@ -61,15 +61,54 @@
 #for example, if the user enters 2, 4 2, 3 and 3, the program should report 2 as the minimum and 4 as
 #maximum
 
-a=int(input("please enter your first number"))
-b=int(input("please enter your second number"))
-c=int(input("please enter your third number"))
-d=int(input("please enter your fourth number"))
-e=int(input("please enter your fifth number"))
+#a=int(input("please enter your first number"))
+#b=int(input("please enter your second number"))
+#c=int(input("please enter your third number"))
+#d=int(input("please enter your fourth number"))
+#e=int(input("please enter your fifth number"))
 
-print( "maximum is:", max(a,b,c,d,e), "and minimum is:", min(a,b,c,d,e))
+#print( "maximum is:", max(a,b,c,d,e), "and minimum is:", min(a,b,c,d,e))
 
 #-------------------------------------------------------------------------------
+#Sum of even numbers:
+#sum=0
+#for i in range(0,101,2):
+#    sum=sum+i
+#print(sum)
+#------------------------------------------------------------------------------
+ #Write a python program to print all the different arrangements of the
+# letters A, B, C and D. Each string printed is a permutation of ABCD.
+#for i in ["A","B","C","D"]:
+ #   for j in  ["A","B","C","D"]:
+ #      if i!=j:
+  #        for k in ["A","B","C","D"]:
+   #           if i!=k and j!=k:
+    #             for z in ["A","B","C","D"]:
+     #               if i!=z and j!=z and k!=z:
+      #                  print(i+j+k+z, end="/")
+#-------------------------------------------------------------------------
+# Write a python program to print all the different arrangements of the
+# letters A, B, and C. Each string printed is a permutation of ABC.
+#for i in ["A","B","C"]:
+#   for j in  ["A","B","C"]:
+#      if i!=j:
+#          for k in ["A","B","C"]:
+#              if k!=i and k!=j:
+#                  print(i+j+k, end="/")
+#--------------------------------------------------------------------------
+# Write python program to print prime numbers up to a specified values.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
