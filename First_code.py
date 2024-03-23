@@ -102,19 +102,20 @@
 #list of student scores as input. Each score is an integer between 0 and 100.
 #Your function should calculate the average score and then return
 #the corresponding letter grade based on the following grading scale
-
-
-
-
 def calculator():
     sum = 0
     grade_list = []
 
     for i in range(0,n):
      grade=int(input("please enter the grade"))
-     grade_list.append(grade)
+     if grade>100:
+      print("please enter numbers below 100")
+     else:
+      grade_list.append(grade)
+
     for i in grade_list:
       sum=sum+i
+
     average=sum/n
 
     if average>=90 and average<=100:
