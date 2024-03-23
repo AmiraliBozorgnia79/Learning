@@ -97,6 +97,39 @@
 #                  print(i+j+k, end="/")
 #--------------------------------------------------------------------------
 # Write python program to print prime numbers up to a specified values.
+#--------------------------------------------------------------------------\
+ #Write a Python function called calculate_grade that takes in a
+#list of student scores as input. Each score is an integer between 0 and 100.
+#Your function should calculate the average score and then return
+#the corresponding letter grade based on the following grading scale
+
+
+
+
+def calculator():
+    sum = 0
+    grade_list = []
+
+    for i in range(0,n):
+     grade=int(input("please enter the grade"))
+     grade_list.append(grade)
+    for i in grade_list:
+      sum=sum+i
+    average=sum/n
+
+    if average>=90 and average<=100:
+          print("average is",average,"the grade scale is A")
+    if average >= 80 and average<=89:
+          print("average is",average,"the grade scale is B")
+    if average >= 70 and average<=79 :
+          print("average is", average," the grade scale is C")
+    else:
+          print("average is", average, "the grade scale is F")
+
+
+
+n = int(input("please enter the number of grades that you would like to enter"))
+calculator()
 
 
 
@@ -113,31 +146,33 @@
 
 
 
-name="Amirali Bozorgnia"
+
+
+#name="Amirali Bozorgnia"
 #print(len(name))
-print(name.split("Amirali Bozorgnia"))
-print(name.find("a"))
-print(name.upper())
-print(name.replace("Amirali Bozorgnia", "Hossein Tabary"))
-print(name)
+#print(name.split("Amirali Bozorgnia"))
+#print(name.find("a"))
+#print(name.upper())
+#print(name.replace("Amirali Bozorgnia", "Hossein Tabary"))
+#print(name)
 
-import math
-k=3.569
-print(round(k,2))
-print(round(k,3))
-print(round(k,1))
-print(math.log10(k))
-print(math.floor(k))
-print(math.ceil(k))
-print(math.sin(k))
-print(math.sqrt(k))
-print(pow(k,2))
+#import math
+#k=3.569
+#print(round(k,2))
+#print(round(k,3))
+#print(round(k,1))
+#print(math.log10(k))
+#print(math.floor(k))
+#print(math.ceil(k))
+#print(math.sin(k))
+#print(math.sqrt(k))
+#print(pow(k,2))
 
-name="Amirali Bozorgnia"
-First_name=name[0:7]
-last_name=name[8:]
-print(First_name+" "+last_name)
+#name="Amirali Bozorgnia"
+#First_name=name[0:7]
+#last_name=name[8:]
+#print(First_name+" "+last_name)
 
 
-print(name[0:7:2])
+#print(name[0:7:2])
 
