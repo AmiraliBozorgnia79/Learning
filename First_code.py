@@ -102,35 +102,67 @@
 #list of student scores as input. Each score is an integer between 0 and 100.
 #Your function should calculate the average score and then return
 #the corresponding letter grade based on the following grading scale
-def calculator():
-    sum = 0
-    grade_list = []
+#def calculator():
+#    sum = 0
+#    grade_list = []
 
-    for i in range(0,n):
-     grade=int(input("please enter the grade"))
-     if grade>100:
-      print("please enter numbers below 100")
-     else:
-      grade_list.append(grade)
+#    for i in range(0,n):
+#     grade=int(input("please enter the grade"))
+#     if grade>100:
+#      print("please enter numbers below 100")
+#     else:
+#      grade_list.append(grade)
 
-    for i in grade_list:
-      sum=sum+i
+#    for i in grade_list:
+#      sum=sum+i
 
-    average=sum/n
+#    average=sum/n
 
-    if average>=90 and average<=100:
-          print("average is",average,"the grade scale is A")
-    if average >= 80 and average<=89:
-          print("average is",average,"the grade scale is B")
-    if average >= 70 and average<=79 :
-          print("average is", average," the grade scale is C")
-    else:
-          print("average is", average, "the grade scale is F")
+#    if average>=90 and average<=100:
+#          print("average is",average,"the grade scale is A")
+#    if average >= 80 and average<=89:
+#          print("average is",average,"the grade scale is B")
+#    if average >= 70 and average<=79 :
+#          print("average is", average," the grade scale is C")
+#    else:
+#          print("average is", average, "the grade scale is F")
+
+
+#n = int(input("please enter the number of grades that you would like to enter"))
+#calculator()
+#----------------------------------------------------------------------------
+#Word_frequency
+def wordcounter(Text):
+
+    list=["a","an", "and","the"]
+    filtered_text=[]
+    Text=str.lower(Text)
+    words=str.split(Text)
+
+    for i in words:
+      if i not in list:
+       filtered_text.append(i)
+
+    Text = " ".join(filtered_text)
+    print(Text)
+
+    Wordcount={}
+
+    for i in filtered_text:
+        if i in Wordcount:
+            Wordcount[i]+=1
+        else:
+            Wordcount[i]=1
+    print(Wordcount)
+
+
+Text = str(input("Enter your sentence"))
+wordcounter(Text)
 
 
 
-n = int(input("please enter the number of grades that you would like to enter"))
-calculator()
+
+
 
 
 
