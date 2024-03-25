@@ -132,32 +132,45 @@
 #calculator()
 #----------------------------------------------------------------------------
 #Word_frequency
-def wordcounter(Text):
+#def wordcounter(Text):
 
-    list=["a","an", "and","the"]
-    filtered_text=[]
-    Text=str.lower(Text)
-    words=str.split(Text)
+#    list=["a","an", "and","the"]
+#    filtered_text=[]
+#    Text=str.lower(Text)
+#    words=str.split(Text)
 
-    for i in words:
-      if i not in list:
-       filtered_text.append(i)
+#    for i in words:
+#      if i not in list:
+#       filtered_text.append(i)
 
-    Text = " ".join(filtered_text)
-    print(Text)
+ #   Text = " ".join(filtered_text)
+#    print(Text)
 
-    Wordcount={}
+ #   Wordcount={}
 
-    for i in filtered_text:
-        if i in Wordcount:
-            Wordcount[i]+=1
-        else:
-            Wordcount[i]=1
-    print(Wordcount)
+#    for i in filtered_text:
+#        if i in Wordcount:
+#            Wordcount[i]+=1
+#        else:
+#            Wordcount[i]=1
+#    print(Wordcount)
 
+#Text = str(input("Enter your sentence"))
+#wordcounter(Text)
+#----------------------------------------------------------------------------------
+## Suppose we wish to draw a triangular tree, and its height is provided
+# by the user.
 
-Text = str(input("Enter your sentence"))
-wordcounter(Text)
+#Height=int(input("Enter the height of the tree"))
+#j=0
+#sign="*"
+#while j<Height:
+#    spaces = ' ' * (Height - j - 1)
+#    stars = sign * (2 * j + 1)
+#    print(spaces + stars)
+#    j += 1
+#---------------------------------------------------------------------------
+
 
 
 
