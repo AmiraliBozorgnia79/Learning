@@ -60,7 +60,7 @@
 #indicate that 5 is the maximum and 0 is the minimum. Your program should handle ties properly;
 #for example, if the user enters 2, 4 2, 3 and 3, the program should report 2 as the minimum and 4 as
 #maximum
-
+#----------------------------------------------------------------------------------------------------
 #a=int(input("please enter your first number"))
 #b=int(input("please enter your second number"))
 #c=int(input("please enter your third number"))
@@ -71,6 +71,7 @@
 
 #-------------------------------------------------------------------------------
 #Sum of even numbers:
+#-------------------------------------------------------------------------------
 #sum=0
 #for i in range(0,101,2):
 #    sum=sum+i
@@ -78,6 +79,7 @@
 #------------------------------------------------------------------------------
  #Write a python program to print all the different arrangements of the
 # letters A, B, C and D. Each string printed is a permutation of ABCD.
+#------------------------------------------------------------------------------------
 #for i in ["A","B","C","D"]:
  #   for j in  ["A","B","C","D"]:
  #      if i!=j:
@@ -89,6 +91,7 @@
 #-------------------------------------------------------------------------
 # Write a python program to print all the different arrangements of the
 # letters A, B, and C. Each string printed is a permutation of ABC.
+#---------------------------------------------------------------------------
 #for i in ["A","B","C"]:
 #   for j in  ["A","B","C"]:
 #      if i!=j:
@@ -102,6 +105,7 @@
 #list of student scores as input. Each score is an integer between 0 and 100.
 #Your function should calculate the average score and then return
 #the corresponding letter grade based on the following grading scale
+#-------------------------------------------------------------------------------
 #def calculator():
 #    sum = 0
 #    grade_list = []
@@ -132,6 +136,7 @@
 #calculator()
 #----------------------------------------------------------------------------
 #Word_frequency
+#-----------------------------------------------------------------------------
 #def wordcounter(Text):
 
 #    list=["a","an", "and","the"]
@@ -160,7 +165,7 @@
 #----------------------------------------------------------------------------------
 ## Suppose we wish to draw a triangular tree, and its height is provided
 # by the user.
-
+#---------------------------------------------------------------------------
 #Height=int(input("Enter the height of the tree"))
 #j=0
 #sign="*"
@@ -170,6 +175,80 @@
 #    print(spaces + stars)
 #    j += 1
 #---------------------------------------------------------------------------
+#Write a program that simulates the rolling of a die.
+# ----------------------------------------------------------------
+#import random
+#print(" this is a die rolling program")
+#while True:
+#    input("welcome to the game, please enter to roll the die")
+#    number= random.randint(1,6)
+#    print(" your number is: "," ", number)
+#    rolling= input("enter yes if you wanna roll again, other wise enter no    ")
+#    if rolling== "yes":
+#       number= random.randint(1,6)
+#       print(" your number is: ", " ", number)
+#    else:
+#         break
+
+import random
+def roll_dice():
+    print(" this is a die rolling program")
+    while True:
+        input("welcome to the game, please enter to roll the die")
+        number = random.randint(1, 6)
+        print(" your number is: ", " ", number)
+        rolling = input("enter yes if you wanna roll again, other wise enter no    ")
+        if rolling == "yes":
+            number = random.randint(1, 6)
+            print(" your number is: ", " ", number)
+        else:
+            break
+
+#----------------------------------------------------------------------------------------------
+input("enter if you wanna roll")
+roll_dice()
+
+#Class_Ex3:
+# Randomly Permuting a List
+# ----------------------------------------------------------------
+a=list(input("enter the numbers separated by "))
+if len(a)==5:
+    for i in range(0, len(a)):
+        for j in range(i+1, len(a)+1):
+            if a[i]
+
+
+
+# =================================================================
+# Class_Ex4:
+# Write a program to convert a tuple to a string.
+# ----------------------------------------------------------------
+
+
+# =================================================================
+# Class_Ex5:
+# Write a program to get the 3th element and 3th element from last of a tuple.
+# ----------------------------------------------------------------
+
+
+# =================================================================
+# Class_Ex6:
+# Write a program to check if an element exists in a tuple or not.
+# ----------------------------------------------------------------
+
+
+# =================================================================
+# Class_Ex7:
+# Write a  program to check a list is empty or not.
+# ----------------------------------------------------------------
+
+
+# =================================================================
+# Class_Ex8:
+# Write a program to generate a 4*5*3 3D array that each element is O.
+# ----------------------------------------------------------------
+----------------------
+
 
 
 
