@@ -191,31 +191,40 @@
 #         break
 
 import random
-def roll_dice():
-    print(" this is a die rolling program")
-    while True:
-        input("welcome to the game, please enter to roll the die")
-        number = random.randint(1, 6)
-        print(" your number is: ", " ", number)
-        rolling = input("enter yes if you wanna roll again, other wise enter no    ")
-        if rolling == "yes":
-            number = random.randint(1, 6)
-            print(" your number is: ", " ", number)
-        else:
-            break
+#def roll_dice():
+#    print(" this is a die rolling program")
+#    while True:
+#        input("welcome to the game, please enter to roll the die")
+#        number = random.randint(1, 6)
+#        print(" your number is: ", " ", number)
+#        rolling = input("enter yes if you wanna roll again, other wise enter no    ")
+#        if rolling == "yes":
+#            number = random.randint(1, 6)
+#            print(" your number is: ", " ", number)
+#        else:
+#            break
 
 #----------------------------------------------------------------------------------------------
-input("enter if you wanna roll")
-roll_dice()
+#input("enter if you wanna roll")
+#roll_dice()
 
 #Class_Ex3:
 # Randomly Permuting a List
 # ----------------------------------------------------------------
-a=list(input("enter the numbers separated by "))
-if len(a)==5:
-    for i in range(0, len(a)):
-        for j in range(i+1, len(a)+1):
-            if a[i]
+#import random
+#c=[50,4,2,10,5]
+#n=len(c)
+#for i in range(0,n-1):
+#      p= random.randrange(i,n)
+#      c[i],c[p]=c[p],c[i]
+
+#print(c)
+
+
+
+
+
+
 
 
 
@@ -242,12 +251,23 @@ if len(a)==5:
 # Write a  program to check a list is empty or not.
 # ----------------------------------------------------------------
 
+while True:
+    numbers=input("please enter your list numbers")
+    list1=[]
+    for i in numbers.split():
+         i = i.strip()
+         list1.append(i)
+    if not list1:
+     print("your list is empty")
+    else:
+     print(list1)
+     print(len(list1))
 
 # =================================================================
 # Class_Ex8:
 # Write a program to generate a 4*5*3 3D array that each element is O.
 # ----------------------------------------------------------------
-----------------------
+#----------------------
 
 
 
