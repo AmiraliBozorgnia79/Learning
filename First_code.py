@@ -250,18 +250,21 @@ import random
 # Class_Ex7:
 # Write a  program to check a list is empty or not.
 # ----------------------------------------------------------------
+def list_checker():
+ while True:
+     numbers=input("please enter your list numbers")
+     list1=[]
+     for i in numbers.split():
+          i = i.strip()
+          list1.append(i)
+     if not list1:
+      print("your list is empty")
+     else:
+      print(list1)
+      print(len(list1))
 
-while True:
-    numbers=input("please enter your list numbers")
-    list1=[]
-    for i in numbers.split():
-         i = i.strip()
-         list1.append(i)
-    if not list1:
-     print("your list is empty")
-    else:
-     print(list1)
-     print(len(list1))
+input("welcome to the program, please press enter to continue")
+list_checker()
 
 # =================================================================
 # Class_Ex8:
