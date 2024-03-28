@@ -240,7 +240,7 @@ if type(Arbitrary_tuple)==tuple:
   for element in eval(Arbitrary_tuple):
        element=str(element)
      print(element,end=" ")
-
+   /
 print(type(element))
 
 
