@@ -351,10 +351,10 @@ class Book:
     def __init__(self, ISBN, title, author, genre, status):
         self.ISBN = ISBN
 
-    self.title = title
-    self.author = author
-    self.genres = genre
-    self.status = status
+        self.title = title
+        self.author = author
+        self.genres = genre
+        self.status = status
 
     def display_details(self):
         print("ISBN:", self.ISBN, "\nTitle:", self.title, "\nAuthor:", self.author, "\nGenres:", self, "\nStatus:",
